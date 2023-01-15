@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16328D6B296ED65A00902F5E /* LottieViewTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D6A296ED65A00902F5E /* LottieViewTime.swift */; };
+		16328D6D296F023B00902F5E /* the-beat-of-nature-122841.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16328D6C296F023B00902F5E /* the-beat-of-nature-122841.mp3 */; };
+		16328D6F296F06BC00902F5E /* MovePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D6E296F06BC00902F5E /* MovePage.swift */; };
+		16328D73296F594800902F5E /* DanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D72296F594800902F5E /* DanceView.swift */; };
+		16328D75296F5B7E00902F5E /* DanceDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D74296F5B7E00902F5E /* DanceDurationView.swift */; };
+		16328D77296F5C3F00902F5E /* LavaFloorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D76296F5C3F00902F5E /* LavaFloorPage.swift */; };
+		16328D79296F61D300902F5E /* 16773-fire.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D78296F61D300902F5E /* 16773-fire.json */; };
+		16328D7B296F6B7700902F5E /* BacktoNormalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D7A296F6B7700902F5E /* BacktoNormalPage.swift */; };
+		16328D7D296F6C0900902F5E /* DrinkWaterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D7C296F6C0900902F5E /* DrinkWaterPage.swift */; };
+		16328D7F296F6E6100902F5E /* AgainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D7E296F6E6100902F5E /* AgainPage.swift */; };
+		16328D81296FF70800902F5E /* Comp 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D80296FF70800902F5E /* Comp 2.json */; };
+		16328D83296FFC3700902F5E /* 127642-stage-curtain-opening.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D82296FFC3600902F5E /* 127642-stage-curtain-opening.json */; };
+		16328D85296FFF0800902F5E /* Confetti - Start-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D84296FFF0700902F5E /* Confetti - Start-2.json */; };
+		16328D872970010500902F5E /* 113021-sparkles-emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D862970010500902F5E /* 113021-sparkles-emoji.json */; };
+		16328D89297002F400902F5E /* Cadre 7-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D88297002F400902F5E /* Cadre 7-2.json */; };
+		16328D8B297005B800902F5E /* MC-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D8A297005B800902F5E /* MC-2.json */; };
+		16328D8D2970061000902F5E /* FullLavaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16328D8C2970061000902F5E /* FullLavaPage.swift */; };
+		16328D8F29700FE200902F5E /* caution_ani.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D8E29700FE200902F5E /* caution_ani.json */; };
+		16328D912970115300902F5E /* Warning.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D902970115300902F5E /* Warning.json */; };
+		16328D9329701F9900902F5E /* water glass.json in Resources */ = {isa = PBXBuildFile; fileRef = 16328D9229701F9800902F5E /* water glass.json */; };
+		164495D129738EC900CA1A6F /* Music Notes.json in Resources */ = {isa = PBXBuildFile; fileRef = 164495D029738EC900CA1A6F /* Music Notes.json */; };
+		164495D32973913F00CA1A6F /* main-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 164495D22973913F00CA1A6F /* main-4.json */; };
+		164495D52973917400CA1A6F /* main-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 164495D42973917400CA1A6F /* main-5.json */; };
+		164495D7297391AA00CA1A6F /* main-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 164495D6297391AA00CA1A6F /* main-6.json */; };
+		164495D9297392D400CA1A6F /* MC-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 164495D8297392D300CA1A6F /* MC-5.json */; };
+		164495DB2973930000CA1A6F /* MC-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 164495DA2973930000CA1A6F /* MC-6.json */; };
+		164495DD2973AC7E00CA1A6F /* LetsPlayTogethersound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 164495DC2973AC7E00CA1A6F /* LetsPlayTogethersound.mp3 */; };
+		164495DF2973AE5600CA1A6F /* Getoffthefloor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 164495DE2973AE5600CA1A6F /* Getoffthefloor.mp3 */; };
+		16452EB529740F1E00C692B5 /* LetsDancePagesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16452EB429740F1E00C692B5 /* LetsDancePagesound.mp3 */; };
+		16452EB9297433FF00C692B5 /* allsong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16452EB8297433FF00C692B5 /* allsong.mp3 */; };
+		165014A8296D90BE003A9FEE /* main-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 165014A7296D90BE003A9FEE /* main-3.json */; };
+		169623C629723ABD00EB8531 /* WaterFullPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169623C529723ABD00EB8531 /* WaterFullPage.swift */; };
+		169623C829723FF200EB8531 /* Comp 1-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623C729723FF200EB8531 /* Comp 1-5.json */; };
+		169623CA2972528C00EB8531 /* OVERLORD_EMPTY-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623C92972528C00EB8531 /* OVERLORD_EMPTY-2.json */; };
+		169623CC297254CF00EB8531 /* OVERLORD_EMPTY-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623CB297254CF00EB8531 /* OVERLORD_EMPTY-3.json */; };
+		169623CE2972568600EB8531 /* Comp 1-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623CD2972568600EB8531 /* Comp 1-7.json */; };
+		169623D02972583C00EB8531 /* OLas-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623CF2972583C00EB8531 /* OLas-2.json */; };
+		169623D229725DEF00EB8531 /* 컴포지션 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623D129725DEF00EB8531 /* 컴포지션 1.json */; };
+		169623D42972CB5300EB8531 /* OVERLORD_EMPTY-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623D32972CB5300EB8531 /* OVERLORD_EMPTY-4.json */; };
+		169623D62972CBBA00EB8531 /* OVERLORD_EMPTY-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623D52972CBBA00EB8531 /* OVERLORD_EMPTY-5.json */; };
+		169623D82972CD7700EB8531 /* OLas-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623D72972CD7700EB8531 /* OLas-3.json */; };
+		169623DA2972D1C000EB8531 /* Warning-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623D92972D1C000EB8531 /* Warning-2.json */; };
+		169623DC2972E06000EB8531 /* MC-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623DB2972E06000EB8531 /* MC-3.json */; };
+		169623DE2972E35600EB8531 /* MC-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 169623DD2972E35600EB8531 /* MC-4.json */; };
+		169623E02972EEAC00EB8531 /* round2Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169623DF2972EEAC00EB8531 /* round2Page.swift */; };
+		169623E22973677900EB8531 /* LavaD.png in Resources */ = {isa = PBXBuildFile; fileRef = 169623E12973677900EB8531 /* LavaD.png */; };
+		169ED39029720FEC00C32B75 /* PlayAgainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169ED38F29720FEC00C32B75 /* PlayAgainPage.swift */; };
+		169ED3922972189500C32B75 /* AreReadyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169ED3912972189500C32B75 /* AreReadyPage.swift */; };
+		16C69534297234BE002B6DD0 /* LavaRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C69533297234BE002B6DD0 /* LavaRoom.swift */; };
+		16CC2B792973AF95005B3188 /* whenisaydance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16CC2B782973AF95005B3188 /* whenisaydance.mp3 */; };
+		16CC2B7B2973B0DB005B3188 /* nowletsdance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16CC2B7A2973B0DB005B3188 /* nowletsdance.mp3 */; };
+		16F2ABE029704FAC00A9ADD8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ABE229704FAC00A9ADD8 /* Localizable.strings */; };
+		16F2ABE5297186A800A9ADD8 /* SoundsCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ABE4297186A800A9ADD8 /* SoundsCodeFile.swift */; };
+		16F2ABF82971D9E900A9ADD8 /* Kidsmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ABF72971D9E900A9ADD8 /* Kidsmusic.mp3 */; };
+		16F2ABFA2971F05000A9ADD8 /* 01. Pointed Arrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ABF92971F05000A9ADD8 /* 01. Pointed Arrow.json */; };
+		16F2ABFC2971F5CE00A9ADD8 /* ArrowDown.json in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ABFB2971F5CE00A9ADD8 /* ArrowDown.json */; };
+		16FFA662296AF68300C884E8 /* LavaGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FFA661296AF68300C884E8 /* LavaGameApp.swift */; };
+		16FFA664296AF68300C884E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FFA663296AF68300C884E8 /* ContentView.swift */; };
+		16FFA666296AF68400C884E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA665296AF68400C884E8 /* Assets.xcassets */; };
+		16FFA669296AF68400C884E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA668296AF68400C884E8 /* Preview Assets.xcassets */; };
+		16FFA670296AF6A300C884E8 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FFA66F296AF6A300C884E8 /* LottieView.swift */; };
+		16FFA675296AF75A00C884E8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 16FFA674296AF75A00C884E8 /* Lottie */; };
+		16FFA677296AF84A00C884E8 /* 16773-fire.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA676296AF84A00C884E8 /* 16773-fire.json */; };
+		16FFA67D296AFE3000C884E8 /* 1152-blue-waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA67C296AFE3000C884E8 /* 1152-blue-waves.json */; };
+		16FFA67F296AFF4300C884E8 /* 75465-conffeti-red.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA67E296AFF4300C884E8 /* 75465-conffeti-red.json */; };
+		16FFA681296B03B400C884E8 /* 12374-animation-red-waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA680296B03B400C884E8 /* 12374-animation-red-waves.json */; };
+		16FFA683296B060E00C884E8 /* ANIMATION.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA682296B060E00C884E8 /* ANIMATION.json */; };
+		16FFA687296B088400C884E8 /* Blob lava.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA686296B088400C884E8 /* Blob lava.json */; };
+		16FFA689296B08E600C884E8 /* Pre-comp 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA688296B08E600C884E8 /* Pre-comp 2.json */; };
+		16FFA68B296B106600C884E8 /* Comp 1-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA68A296B106600C884E8 /* Comp 1-3.json */; };
+		16FFA68D296B124A00C884E8 /* Comp 1-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA68C296B124A00C884E8 /* Comp 1-3.json */; };
+		16FFA68F296B12B500C884E8 /* fire.json in Resources */ = {isa = PBXBuildFile; fileRef = 16FFA68E296B12B500C884E8 /* fire.json */; };
+		16FFA69C296D855A00C884E8 /* TimerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FFA69B296D855A00C884E8 /* TimerPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16328D6A296ED65A00902F5E /* LottieViewTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewTime.swift; sourceTree = "<group>"; };
+		16328D6C296F023B00902F5E /* the-beat-of-nature-122841.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "the-beat-of-nature-122841.mp3"; path = "../../../Downloads/the-beat-of-nature-122841.mp3"; sourceTree = "<group>"; };
+		16328D6E296F06BC00902F5E /* MovePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovePage.swift; sourceTree = "<group>"; };
+		16328D72296F594800902F5E /* DanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceView.swift; sourceTree = "<group>"; };
+		16328D74296F5B7E00902F5E /* DanceDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceDurationView.swift; sourceTree = "<group>"; };
+		16328D76296F5C3F00902F5E /* LavaFloorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaFloorPage.swift; sourceTree = "<group>"; };
+		16328D78296F61D300902F5E /* 16773-fire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "16773-fire.json"; path = "../../Downloads/16773-fire.json"; sourceTree = "<group>"; };
+		16328D7A296F6B7700902F5E /* BacktoNormalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacktoNormalPage.swift; sourceTree = "<group>"; };
+		16328D7C296F6C0900902F5E /* DrinkWaterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterPage.swift; sourceTree = "<group>"; };
+		16328D7E296F6E6100902F5E /* AgainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgainPage.swift; sourceTree = "<group>"; };
+		16328D80296FF70800902F5E /* Comp 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Comp 2.json"; path = "../../../Downloads/Comp 2.json"; sourceTree = "<group>"; };
+		16328D82296FFC3600902F5E /* 127642-stage-curtain-opening.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "127642-stage-curtain-opening.json"; path = "../../Downloads/127642-stage-curtain-opening.json"; sourceTree = "<group>"; };
+		16328D84296FFF0700902F5E /* Confetti - Start-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Confetti - Start-2.json"; path = "../../Downloads/Confetti - Start-2.json"; sourceTree = "<group>"; };
+		16328D862970010500902F5E /* 113021-sparkles-emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "113021-sparkles-emoji.json"; path = "../../Downloads/113021-sparkles-emoji.json"; sourceTree = "<group>"; };
+		16328D88297002F400902F5E /* Cadre 7-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Cadre 7-2.json"; path = "../../Downloads/Cadre 7-2.json"; sourceTree = "<group>"; };
+		16328D8A297005B800902F5E /* MC-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "MC-2.json"; path = "../../Downloads/MC-2.json"; sourceTree = "<group>"; };
+		16328D8C2970061000902F5E /* FullLavaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullLavaPage.swift; sourceTree = "<group>"; };
+		16328D8E29700FE200902F5E /* caution_ani.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = caution_ani.json; path = ../../Downloads/caution_ani.json; sourceTree = "<group>"; };
+		16328D902970115300902F5E /* Warning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Warning.json; path = ../../Downloads/Warning.json; sourceTree = "<group>"; };
+		16328D9229701F9800902F5E /* water glass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "water glass.json"; path = "../../Downloads/water glass.json"; sourceTree = "<group>"; };
+		164495D029738EC900CA1A6F /* Music Notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Music Notes.json"; sourceTree = "<group>"; };
+		164495D22973913F00CA1A6F /* main-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "main-4.json"; sourceTree = "<group>"; };
+		164495D42973917400CA1A6F /* main-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "main-5.json"; sourceTree = "<group>"; };
+		164495D6297391AA00CA1A6F /* main-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "main-6.json"; sourceTree = "<group>"; };
+		164495D8297392D300CA1A6F /* MC-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MC-5.json"; sourceTree = "<group>"; };
+		164495DA2973930000CA1A6F /* MC-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MC-6.json"; sourceTree = "<group>"; };
+		164495DC2973AC7E00CA1A6F /* LetsPlayTogethersound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetsPlayTogethersound.mp3; sourceTree = "<group>"; };
+		164495DE2973AE5600CA1A6F /* Getoffthefloor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Getoffthefloor.mp3; sourceTree = "<group>"; };
+		16452EB429740F1E00C692B5 /* LetsDancePagesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetsDancePagesound.mp3; sourceTree = "<group>"; };
+		16452EB8297433FF00C692B5 /* allsong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allsong.mp3; sourceTree = "<group>"; };
+		165014A7296D90BE003A9FEE /* main-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "main-3.json"; path = "../../../Downloads/main-3.json"; sourceTree = "<group>"; };
+		169623C529723ABD00EB8531 /* WaterFullPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFullPage.swift; sourceTree = "<group>"; };
+		169623C729723FF200EB8531 /* Comp 1-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comp 1-5.json"; sourceTree = "<group>"; };
+		169623C92972528C00EB8531 /* OVERLORD_EMPTY-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OVERLORD_EMPTY-2.json"; sourceTree = "<group>"; };
+		169623CB297254CF00EB8531 /* OVERLORD_EMPTY-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OVERLORD_EMPTY-3.json"; sourceTree = "<group>"; };
+		169623CD2972568600EB8531 /* Comp 1-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comp 1-7.json"; sourceTree = "<group>"; };
+		169623CF2972583C00EB8531 /* OLas-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OLas-2.json"; sourceTree = "<group>"; };
+		169623D129725DEF00EB8531 /* 컴포지션 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "컴포지션 1.json"; sourceTree = "<group>"; };
+		169623D32972CB5300EB8531 /* OVERLORD_EMPTY-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OVERLORD_EMPTY-4.json"; sourceTree = "<group>"; };
+		169623D52972CBBA00EB8531 /* OVERLORD_EMPTY-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OVERLORD_EMPTY-5.json"; sourceTree = "<group>"; };
+		169623D72972CD7700EB8531 /* OLas-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OLas-3.json"; sourceTree = "<group>"; };
+		169623D92972D1C000EB8531 /* Warning-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Warning-2.json"; sourceTree = "<group>"; };
+		169623DB2972E06000EB8531 /* MC-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MC-3.json"; sourceTree = "<group>"; };
+		169623DD2972E35600EB8531 /* MC-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MC-4.json"; sourceTree = "<group>"; };
+		169623DF2972EEAC00EB8531 /* round2Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = round2Page.swift; sourceTree = "<group>"; };
+		169623E12973677900EB8531 /* LavaD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LavaD.png; sourceTree = "<group>"; };
+		169ED38F29720FEC00C32B75 /* PlayAgainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAgainPage.swift; sourceTree = "<group>"; };
+		169ED3912972189500C32B75 /* AreReadyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreReadyPage.swift; sourceTree = "<group>"; };
+		16C69533297234BE002B6DD0 /* LavaRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaRoom.swift; sourceTree = "<group>"; };
+		16CC2B782973AF95005B3188 /* whenisaydance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whenisaydance.mp3; sourceTree = "<group>"; };
+		16CC2B7A2973B0DB005B3188 /* nowletsdance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nowletsdance.mp3; sourceTree = "<group>"; };
+		16F2ABE129704FAC00A9ADD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		16F2ABE329704FBF00A9ADD8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		16F2ABE4297186A800A9ADD8 /* SoundsCodeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsCodeFile.swift; sourceTree = "<group>"; };
+		16F2ABF62971CFFB00A9ADD8 /* caution_ani.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = caution_ani.json; sourceTree = "<group>"; };
+		16F2ABF72971D9E900A9ADD8 /* Kidsmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kidsmusic.mp3; sourceTree = "<group>"; };
+		16F2ABF92971F05000A9ADD8 /* 01. Pointed Arrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "01. Pointed Arrow.json"; sourceTree = "<group>"; };
+		16F2ABFB2971F5CE00A9ADD8 /* ArrowDown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArrowDown.json; sourceTree = "<group>"; };
+		16FFA65E296AF68300C884E8 /* LavaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LavaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FFA661296AF68300C884E8 /* LavaGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaGameApp.swift; sourceTree = "<group>"; };
+		16FFA663296AF68300C884E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16FFA665296AF68400C884E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16FFA668296AF68400C884E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16FFA66F296AF6A300C884E8 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		16FFA676296AF84A00C884E8 /* 16773-fire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "16773-fire.json"; path = "../../../Downloads/16773-fire.json"; sourceTree = "<group>"; };
+		16FFA67C296AFE3000C884E8 /* 1152-blue-waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "1152-blue-waves.json"; path = "../../../Downloads/1152-blue-waves.json"; sourceTree = "<group>"; };
+		16FFA67E296AFF4300C884E8 /* 75465-conffeti-red.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "75465-conffeti-red.json"; path = "../../../Downloads/75465-conffeti-red.json"; sourceTree = "<group>"; };
+		16FFA680296B03B400C884E8 /* 12374-animation-red-waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "12374-animation-red-waves.json"; path = "../../../Downloads/12374-animation-red-waves.json"; sourceTree = "<group>"; };
+		16FFA682296B060E00C884E8 /* ANIMATION.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ANIMATION.json; path = ../../../Downloads/ANIMATION.json; sourceTree = "<group>"; };
+		16FFA686296B088400C884E8 /* Blob lava.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Blob lava.json"; path = "../../../Downloads/Blob lava.json"; sourceTree = "<group>"; };
+		16FFA688296B08E600C884E8 /* Pre-comp 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Pre-comp 2.json"; path = "../../../Downloads/Pre-comp 2.json"; sourceTree = "<group>"; };
+		16FFA68A296B106600C884E8 /* Comp 1-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Comp 1-3.json"; path = "../../../Downloads/Comp 1-3.json"; sourceTree = "<group>"; };
+		16FFA68C296B124A00C884E8 /* Comp 1-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Comp 1-3.json"; path = "../../../Downloads/Comp 1-3.json"; sourceTree = "<group>"; };
+		16FFA68E296B12B500C884E8 /* fire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fire.json; path = ../../../Downloads/fire.json; sourceTree = "<group>"; };
+		16FFA69B296D855A00C884E8 /* TimerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16FFA65B296AF68300C884E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FFA675296AF75A00C884E8 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F2ABE62971947800A9ADD8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				164495DC2973AC7E00CA1A6F /* LetsPlayTogethersound.mp3 */,
+				16F2ABF72971D9E900A9ADD8 /* Kidsmusic.mp3 */,
+				16452EB8297433FF00C692B5 /* allsong.mp3 */,
+				164495DE2973AE5600CA1A6F /* Getoffthefloor.mp3 */,
+				16452EB429740F1E00C692B5 /* LetsDancePagesound.mp3 */,
+				16CC2B782973AF95005B3188 /* whenisaydance.mp3 */,
+				16CC2B7A2973B0DB005B3188 /* nowletsdance.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		16F2ABF52971CFE600A9ADD8 /* Lottie Files Group */ = {
+			isa = PBXGroup;
+			children = (
+				16F2ABF62971CFFB00A9ADD8 /* caution_ani.json */,
+			);
+			path = "Lottie Files Group";
+			sourceTree = "<group>";
+		};
+		16FFA655296AF68300C884E8 = {
+			isa = PBXGroup;
+			children = (
+				169ED3912972189500C32B75 /* AreReadyPage.swift */,
+				169623DF2972EEAC00EB8531 /* round2Page.swift */,
+				169623C529723ABD00EB8531 /* WaterFullPage.swift */,
+				169ED38F29720FEC00C32B75 /* PlayAgainPage.swift */,
+				16F2ABE229704FAC00A9ADD8 /* Localizable.strings */,
+				16328D76296F5C3F00902F5E /* LavaFloorPage.swift */,
+				16C69533297234BE002B6DD0 /* LavaRoom.swift */,
+				169623CF2972583C00EB8531 /* OLas-2.json */,
+				16328D8C2970061000902F5E /* FullLavaPage.swift */,
+				169623C729723FF200EB8531 /* Comp 1-5.json */,
+				16328D7A296F6B7700902F5E /* BacktoNormalPage.swift */,
+				16328D7C296F6C0900902F5E /* DrinkWaterPage.swift */,
+				16328D7E296F6E6100902F5E /* AgainPage.swift */,
+				169623C92972528C00EB8531 /* OVERLORD_EMPTY-2.json */,
+				16328D6E296F06BC00902F5E /* MovePage.swift */,
+				169623CB297254CF00EB8531 /* OVERLORD_EMPTY-3.json */,
+				169623D52972CBBA00EB8531 /* OVERLORD_EMPTY-5.json */,
+				169623E12973677900EB8531 /* LavaD.png */,
+				169623CD2972568600EB8531 /* Comp 1-7.json */,
+				16F2ABE4297186A800A9ADD8 /* SoundsCodeFile.swift */,
+				16F2ABE62971947800A9ADD8 /* Sounds */,
+				16328D72296F594800902F5E /* DanceView.swift */,
+				16328D82296FFC3600902F5E /* 127642-stage-curtain-opening.json */,
+				169623D32972CB5300EB8531 /* OVERLORD_EMPTY-4.json */,
+				169623D72972CD7700EB8531 /* OLas-3.json */,
+				169623D92972D1C000EB8531 /* Warning-2.json */,
+				16328D78296F61D300902F5E /* 16773-fire.json */,
+				169623D129725DEF00EB8531 /* 컴포지션 1.json */,
+				169623DD2972E35600EB8531 /* MC-4.json */,
+				16328D8A297005B800902F5E /* MC-2.json */,
+				16328D84296FFF0700902F5E /* Confetti - Start-2.json */,
+				16328D9229701F9800902F5E /* water glass.json */,
+				16328D88297002F400902F5E /* Cadre 7-2.json */,
+				16328D902970115300902F5E /* Warning.json */,
+				169623DB2972E06000EB8531 /* MC-3.json */,
+				16328D74296F5B7E00902F5E /* DanceDurationView.swift */,
+				16328D8E29700FE200902F5E /* caution_ani.json */,
+				16328D6A296ED65A00902F5E /* LottieViewTime.swift */,
+				16328D862970010500902F5E /* 113021-sparkles-emoji.json */,
+				16FFA660296AF68300C884E8 /* LavaGame */,
+				16FFA65F296AF68300C884E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16FFA65F296AF68300C884E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16FFA65E296AF68300C884E8 /* LavaGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16FFA660296AF68300C884E8 /* LavaGame */ = {
+			isa = PBXGroup;
+			children = (
+				16F2ABF52971CFE600A9ADD8 /* Lottie Files Group */,
+				16FFA661296AF68300C884E8 /* LavaGameApp.swift */,
+				16328D6C296F023B00902F5E /* the-beat-of-nature-122841.mp3 */,
+				16FFA663296AF68300C884E8 /* ContentView.swift */,
+				164495D8297392D300CA1A6F /* MC-5.json */,
+				164495D029738EC900CA1A6F /* Music Notes.json */,
+				164495D6297391AA00CA1A6F /* main-6.json */,
+				164495D42973917400CA1A6F /* main-5.json */,
+				164495DA2973930000CA1A6F /* MC-6.json */,
+				16FFA69B296D855A00C884E8 /* TimerPage.swift */,
+				164495D22973913F00CA1A6F /* main-4.json */,
+				16FFA676296AF84A00C884E8 /* 16773-fire.json */,
+				16F2ABFB2971F5CE00A9ADD8 /* ArrowDown.json */,
+				16328D80296FF70800902F5E /* Comp 2.json */,
+				16FFA68E296B12B500C884E8 /* fire.json */,
+				16F2ABF92971F05000A9ADD8 /* 01. Pointed Arrow.json */,
+				165014A7296D90BE003A9FEE /* main-3.json */,
+				16FFA68C296B124A00C884E8 /* Comp 1-3.json */,
+				16FFA682296B060E00C884E8 /* ANIMATION.json */,
+				16FFA68A296B106600C884E8 /* Comp 1-3.json */,
+				16FFA688296B08E600C884E8 /* Pre-comp 2.json */,
+				16FFA686296B088400C884E8 /* Blob lava.json */,
+				16FFA680296B03B400C884E8 /* 12374-animation-red-waves.json */,
+				16FFA67E296AFF4300C884E8 /* 75465-conffeti-red.json */,
+				16FFA67C296AFE3000C884E8 /* 1152-blue-waves.json */,
+				16FFA66F296AF6A300C884E8 /* LottieView.swift */,
+				16FFA665296AF68400C884E8 /* Assets.xcassets */,
+				16FFA667296AF68400C884E8 /* Preview Content */,
+			);
+			path = LavaGame;
+			sourceTree = "<group>";
+		};
+		16FFA667296AF68400C884E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16FFA668296AF68400C884E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16FFA65D296AF68300C884E8 /* LavaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FFA66C296AF68400C884E8 /* Build configuration list for PBXNativeTarget "LavaGame" */;
+			buildPhases = (
+				16FFA65A296AF68300C884E8 /* Sources */,
+				16FFA65B296AF68300C884E8 /* Frameworks */,
+				16FFA65C296AF68300C884E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LavaGame;
+			packageProductDependencies = (
+				16FFA674296AF75A00C884E8 /* Lottie */,
+			);
+			productName = LavaGame;
+			productReference = 16FFA65E296AF68300C884E8 /* LavaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16FFA656296AF68300C884E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					16FFA65D296AF68300C884E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 16FFA659296AF68300C884E8 /* Build configuration list for PBXProject "LavaGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 16FFA655296AF68300C884E8;
+			packageReferences = (
+				16FFA673296AF75A00C884E8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 16FFA65F296AF68300C884E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16FFA65D296AF68300C884E8 /* LavaGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16FFA65C296AF68300C884E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169623D82972CD7700EB8531 /* OLas-3.json in Resources */,
+				164495DD2973AC7E00CA1A6F /* LetsPlayTogethersound.mp3 in Resources */,
+				169623CC297254CF00EB8531 /* OVERLORD_EMPTY-3.json in Resources */,
+				169623CA2972528C00EB8531 /* OVERLORD_EMPTY-2.json in Resources */,
+				16328D83296FFC3700902F5E /* 127642-stage-curtain-opening.json in Resources */,
+				16CC2B7B2973B0DB005B3188 /* nowletsdance.mp3 in Resources */,
+				16328D9329701F9900902F5E /* water glass.json in Resources */,
+				165014A8296D90BE003A9FEE /* main-3.json in Resources */,
+				169623CE2972568600EB8531 /* Comp 1-7.json in Resources */,
+				16FFA681296B03B400C884E8 /* 12374-animation-red-waves.json in Resources */,
+				164495D129738EC900CA1A6F /* Music Notes.json in Resources */,
+				16F2ABE029704FAC00A9ADD8 /* Localizable.strings in Resources */,
+				169623DE2972E35600EB8531 /* MC-4.json in Resources */,
+				164495DB2973930000CA1A6F /* MC-6.json in Resources */,
+				16328D6D296F023B00902F5E /* the-beat-of-nature-122841.mp3 in Resources */,
+				16FFA68F296B12B500C884E8 /* fire.json in Resources */,
+				16CC2B792973AF95005B3188 /* whenisaydance.mp3 in Resources */,
+				169623DA2972D1C000EB8531 /* Warning-2.json in Resources */,
+				16F2ABFC2971F5CE00A9ADD8 /* ArrowDown.json in Resources */,
+				16328D85296FFF0800902F5E /* Confetti - Start-2.json in Resources */,
+				16FFA689296B08E600C884E8 /* Pre-comp 2.json in Resources */,
+				16328D8B297005B800902F5E /* MC-2.json in Resources */,
+				169623DC2972E06000EB8531 /* MC-3.json in Resources */,
+				16F2ABFA2971F05000A9ADD8 /* 01. Pointed Arrow.json in Resources */,
+				16F2ABF82971D9E900A9ADD8 /* Kidsmusic.mp3 in Resources */,
+				164495DF2973AE5600CA1A6F /* Getoffthefloor.mp3 in Resources */,
+				16452EB9297433FF00C692B5 /* allsong.mp3 in Resources */,
+				16FFA67F296AFF4300C884E8 /* 75465-conffeti-red.json in Resources */,
+				169623D02972583C00EB8531 /* OLas-2.json in Resources */,
+				169623D42972CB5300EB8531 /* OVERLORD_EMPTY-4.json in Resources */,
+				16328D8F29700FE200902F5E /* caution_ani.json in Resources */,
+				16FFA687296B088400C884E8 /* Blob lava.json in Resources */,
+				16FFA68D296B124A00C884E8 /* Comp 1-3.json in Resources */,
+				169623C829723FF200EB8531 /* Comp 1-5.json in Resources */,
+				16328D89297002F400902F5E /* Cadre 7-2.json in Resources */,
+				164495D9297392D400CA1A6F /* MC-5.json in Resources */,
+				16452EB529740F1E00C692B5 /* LetsDancePagesound.mp3 in Resources */,
+				164495D7297391AA00CA1A6F /* main-6.json in Resources */,
+				16FFA68B296B106600C884E8 /* Comp 1-3.json in Resources */,
+				169623D62972CBBA00EB8531 /* OVERLORD_EMPTY-5.json in Resources */,
+				16FFA669296AF68400C884E8 /* Preview Assets.xcassets in Resources */,
+				16328D872970010500902F5E /* 113021-sparkles-emoji.json in Resources */,
+				16FFA67D296AFE3000C884E8 /* 1152-blue-waves.json in Resources */,
+				16FFA666296AF68400C884E8 /* Assets.xcassets in Resources */,
+				16328D81296FF70800902F5E /* Comp 2.json in Resources */,
+				164495D52973917400CA1A6F /* main-5.json in Resources */,
+				16328D79296F61D300902F5E /* 16773-fire.json in Resources */,
+				16328D912970115300902F5E /* Warning.json in Resources */,
+				164495D32973913F00CA1A6F /* main-4.json in Resources */,
+				16FFA683296B060E00C884E8 /* ANIMATION.json in Resources */,
+				169623D229725DEF00EB8531 /* 컴포지션 1.json in Resources */,
+				16FFA677296AF84A00C884E8 /* 16773-fire.json in Resources */,
+				169623E22973677900EB8531 /* LavaD.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16FFA65A296AF68300C884E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16328D7B296F6B7700902F5E /* BacktoNormalPage.swift in Sources */,
+				169ED39029720FEC00C32B75 /* PlayAgainPage.swift in Sources */,
+				16328D73296F594800902F5E /* DanceView.swift in Sources */,
+				16FFA69C296D855A00C884E8 /* TimerPage.swift in Sources */,
+				16328D6F296F06BC00902F5E /* MovePage.swift in Sources */,
+				16328D75296F5B7E00902F5E /* DanceDurationView.swift in Sources */,
+				16F2ABE5297186A800A9ADD8 /* SoundsCodeFile.swift in Sources */,
+				16FFA664296AF68300C884E8 /* ContentView.swift in Sources */,
+				16328D7D296F6C0900902F5E /* DrinkWaterPage.swift in Sources */,
+				169623E02972EEAC00EB8531 /* round2Page.swift in Sources */,
+				169623C629723ABD00EB8531 /* WaterFullPage.swift in Sources */,
+				16C69534297234BE002B6DD0 /* LavaRoom.swift in Sources */,
+				16FFA662296AF68300C884E8 /* LavaGameApp.swift in Sources */,
+				16328D8D2970061000902F5E /* FullLavaPage.swift in Sources */,
+				16328D77296F5C3F00902F5E /* LavaFloorPage.swift in Sources */,
+				16328D6B296ED65A00902F5E /* LottieViewTime.swift in Sources */,
+				169ED3922972189500C32B75 /* AreReadyPage.swift in Sources */,
+				16FFA670296AF6A300C884E8 /* LottieView.swift in Sources */,
+				16328D7F296F6E6100902F5E /* AgainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16F2ABE229704FAC00A9ADD8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F2ABE129704FAC00A9ADD8 /* en */,
+				16F2ABE329704FBF00A9ADD8 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16FFA66A296AF68400C884E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16FFA66B296AF68400C884E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16FFA66D296AF68400C884E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LavaGame/Preview Content\"";
+				DEVELOPMENT_TEAM = UNY43L6L35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.HomePage.LavaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16FFA66E296AF68400C884E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LavaGame/Preview Content\"";
+				DEVELOPMENT_TEAM = UNY43L6L35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.HomePage.LavaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16FFA659296AF68300C884E8 /* Build configuration list for PBXProject "LavaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FFA66A296AF68400C884E8 /* Debug */,
+				16FFA66B296AF68400C884E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FFA66C296AF68400C884E8 /* Build configuration list for PBXNativeTarget "LavaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FFA66D296AF68400C884E8 /* Debug */,
+				16FFA66E296AF68400C884E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16FFA673296AF75A00C884E8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16FFA674296AF75A00C884E8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16FFA673296AF75A00C884E8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16FFA656296AF68300C884E8 /* Project object */;
+}

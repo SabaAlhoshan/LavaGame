@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  LavaGame
+
+  Created by saba on 19/06/1444 AH.
+  
+*/
+
+"The"="The";
+"Floor"="Floor";
+"is"="is";
+"Lava"="Lava";
+"Lets Start"="لنبدأ ";
+"\" Let's play together \""="\" لنلعب معاً \"";
+"\" Hi there \""="\" مرحباً \"";
+"\" Get of the Floor \""="\" إبتعد عن الأرض \"";
+"\" When i say the Floor is LAVA ! \""="\" عندما أقول الارض بركانية ! \"";
+"\" Daaaance \""="\" لنرقص \"";
+"\" When i Say Dance \""="\" عندما أقول لنرقص \"";
+"\" I like Your Moves! \""="\" I like Your Moves! \"";
+"\" Now Let's Dance \""="\" الان دعونا نرقص سوياً \"";
+"Get Ready.."="استعد..";
+"To get of the Floor !"="لتبتعد عن الارض ";
+"\"THE FLOOR IS LAVA\""="\"الارض بركانية\"";
+"\"THE FLOOR IS LAVA\""="\"الارض بركانية\"";
+"\" Lava is EVERYWERE "="\" انها في كل مكان ";
+"Be carfull..! \""="انتبه..! \"";
+"! Back To Normal !"="! عدنا للوضع الطبيعي !";
+"\" We got 30 seconds, Lets Drink Some Water \""="\" لدينا ٣٠ ثانية ، دعونا نشرب بعض الماء \"";
+"\" WOAH That lava was HOT \""="ووه البركان ساخن جداً";
+"\"Let's Go Drink Some Water \""="\"دعونا نشرب بعض الماء  \"";
+"\" Its Water Time! \""="\" وقت الماء ! \"";
+"\" Let's do it again \""="\" لنفعلها مر{ اخرى \"";
+"\" Woah , That was fun  \""="\" واو , كان ذلك ممتعاً  \"";
+"\" Here we go ! \""="\" هيا بنا  ! \"";
+"\" Ready For another round ? \""="\" جاهز لنبدأ اللعب  ? \"";
