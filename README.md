@@ -39,6 +39,10 @@ A game that helps Kids who Need to be more active by motivating them to move mor
 we Added Speech Sound over every Text on the App so Kids with disabilites can play with other kids normally
 also user can choose to skip the page by clicking th (Skip Button) or by default it's will dissappear after few seconds ..
 
+# Languages
+- English
+- Arabic
+
 # Developers
 Saba ALhoshan:  https://www.linkedin.com/in/saba-alhoshan-23a9bb203                                                             
 Waffa alajmi: https://www.linkedin.com/in/wafa-alajmi-42916b185
