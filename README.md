@@ -60,6 +60,6 @@ also user can choose to skip the page by clicking the (Skip Button) or by defaul
 
 # Developers
 Saba ALhoshan:  https://www.linkedin.com/in/saba-alhoshan-23a9bb203                                                             
-
+Waffa alajmi
 
 ### Just Few Edits..Very Soon on the App Store.
